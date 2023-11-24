@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "set-image-capture-date"
+version = "0.1.0"
+description = ""
+authors = ["S Heins <52819981+s-heins@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "set_image_capture_date"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
