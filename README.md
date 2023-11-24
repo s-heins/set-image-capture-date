@@ -19,3 +19,8 @@ poetry update
 
 ## Running locally
 
+```
+poetry run main
+```
+
+This runs main as defined in the `pyproject.toml`.
